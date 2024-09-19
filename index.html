@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+width:100wh;
+height:100vh;
+align-items: center;
+background-color:olive;
+}
+.forms:hover{
+height:40vh;
+}
+.forms{
+background-color: aqua;
+height:25vh;
+width:80%;
+border:2px dotted red;
+text-align: center;
+margin-top:30%;
+margin-left:10%;
+border-top-left-radius: 30%;
+border-bottom-right-radius: 30%;
+position: fixed;
+}
+#btn{
+padding:10px 20px;
+background-color: #46FFFF;
+border-top-left-radius: 30%;
+border-bottom-right-radius: 30%;
+}
+</style>
+</head>
+<body>
+<div id="box">
+<div class="child">
+<br>
+<form method="post" action="data.php" class="forms">
+<br>
+<br>
+<label id="uname">Name: </label>
+<input type="text" name="name"><br>
+<br>
+<label id="lname">Last:</label>
+<input type="text" name="last"><br>
+<br>
+<input type="submit" name="sb" value="Login" id="btn">
+</form>
+</div>
+</div>
+</body>
+</html>
